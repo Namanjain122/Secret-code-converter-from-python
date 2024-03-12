@@ -34,10 +34,5 @@ convert_button.pack()
 output_label = Label(window, text="")
 output_label.pack()
 
-#adding  background image 
-Image = Image.open("Naman.jpg")
-photo = ImageTk.PhotoImage(Image)
-Naman_Lable = Label(image=photo)
-Naman_Lable.pack()
 # Start the tkinter event loop
 window.mainloop()
